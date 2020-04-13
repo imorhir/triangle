@@ -42,7 +42,7 @@ public class TriangleTest {
 
 		 });
 	}
-	/*
+
 	@Test
 	@DisplayName("should not throw any exeptions")
 	void validateMaxForArgs(){
@@ -51,5 +51,5 @@ public class TriangleTest {
 		}
 
 		);
-	}*/
+	}
 }
