@@ -47,9 +47,8 @@ public class TriangleTest {
 	@DisplayName("should not throw any exeptions")
 	void validateMaxForArgs(){
 		String[]  args = {"101","7","3"};
-		assertThrows(IllegalArgumentException.class,()->{ new Triangle(args);
-		}
-
-		);
+		assertThrows(IllegalArgumentException.class,()-> {
+			new Triangle(args);
+		});
 	}
 }
